@@ -40,15 +40,15 @@ class Tree:
 
 
 def main():
-    bt = Tree()
-    n = Node(1)
-    n.left = Node(2)
-    n.right = Node(2)
-    n.right.right= Node(3)
-    n.right.left = Node(4)
-    bt.root = n
-    bt.print_tree()
-    bt.getHeight()
+    binary_tree = Tree()
+    node = Node(1)
+    node.left = Node(2)
+    node.right = Node(2)
+    node.right.right= Node(3)
+    node.right.left = Node(4)
+    binary_tree.root = node
+    binary_tree.print_tree()
+    binary_tree.getHeight()
 main()
 
 
